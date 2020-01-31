@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sharebox Suite">
+	<test name="Sharebox Test">
+		<classes>
+			<class name="com.sharebox.test.AcceptFileTest"></class>
+			<class name="com.sharebox.test.DeleteFileTest"></class>
+			<class name="com.sharebox.test.GetFilesTest"></class>
+			<class name="com.sharebox.test.ShareFileTest"></class>
+			<class name="com.sharebox.test.UploadFileTest"></class>
+		</classes>
+	</test>
+</suite>
